@@ -24,7 +24,7 @@ class AccountCreation : AppCompatActivity() {
     }
 
     private val dbUrl = "jdbc:mysql://10.0.2.2:3306/";
-    private val user = "root";
+    private val user = "";
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
@@ -59,7 +59,7 @@ class AccountCreation : AppCompatActivity() {
     private fun handleUser(email:String, password:String){
         CoroutineScope(Dispatchers.IO).launch {
             try{
-                val connection = DriverManager.getConnection(dbUrl,user,"Welcome2025@");
+                val connection = DriverManager.getConnection(dbUrl,user,"");
                 val statement = connection.createStatement();
 
                 val createDB = "create database if not exists gemini";

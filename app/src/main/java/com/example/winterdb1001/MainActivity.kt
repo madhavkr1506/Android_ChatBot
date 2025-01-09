@@ -42,8 +42,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val dbUrl = "jdbc:mysql://10.0.2.2:3306/";
-    private val user = "root";
-    private val password = "1234";
+    private val user = "";
+    private val password = "";
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handleRequest(inputText:String){
-        val stringUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCAIJiBKPDny3DsCw3l8sss6qEnJcTwThM";
+        val stringUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=";
         val parseQuery = """{"contents":[{"parts":[{"text":"$inputText"}]}]}""";
 
         val outputQuery = binding.OutputDisplay;
