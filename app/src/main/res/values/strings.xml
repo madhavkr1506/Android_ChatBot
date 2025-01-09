@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WinterDB1001</string>
+    <string name="about_us">Hello! I’m Madhav Kumar, a passionate BTech student currently in my 5th semester at Lovely Professional University. I am pursuing my Bachelor\'s degree in Computer Science and Engineering.
+
+Throughout my academic journey, I have developed a keen interest in Artificial Intelligence, Machine Learning, and Natural Language Processing (NLP). This led me to work on my chatbot project, which utilizes the Gemini API to create intelligent and dynamic conversational experiences.
+
+I am always eager to explore new technologies and enhance my skills. This project is a part of my ongoing learning process, and I am constantly improving it to provide better and more efficient communication solutions. I look forward to working on more exciting projects and expanding my knowledge in the field of technology.</string>
+
+    <string name="login">Welcome back! Please enter your email address and password</string>
+    <string name="custom_alert_box">Log in or sign up to get smarter responses, upload files and images, and more.</string>
+</resources>

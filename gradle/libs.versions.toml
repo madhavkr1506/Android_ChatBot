@@ -1,0 +1,38 @@
+[versions]
+agp = "8.7.3"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxCoroutinesAndroid = "1.7.3"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+mysqlConnectorJ = "9.0.0"
+mysqlConnectorJava = "8.0.33"
+mysqlConnectorJavaVersion = "5.1.49"
+mysqlConnectorJVersion = "9.0.0"
+mysqlMysqlConnectorJ = "8.3.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+mysql-connector-j = { module = "com.mysql:mysql-connector-j", version.ref = "mysqlConnectorJ" }
+mysql-connector-j-v830 = { module = "com.mysql:mysql-connector-j", version.ref = "mysqlMysqlConnectorJ" }
+mysql-connector-java = { module = "mysql:mysql-connector-java", version.ref = "mysqlConnectorJava" }
+mysql-connector-java-v5149 = { module = "mysql:mysql-connector-java", version.ref = "mysqlConnectorJavaVersion" }
+mysql-mysql-connector-j = { module = "mysql:mysql-connector-j", version.ref = "mysqlConnectorJVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
